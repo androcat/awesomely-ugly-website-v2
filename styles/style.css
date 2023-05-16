@@ -33,5 +33,51 @@ marquee > img {
   width: 150px;
 }
 
+button {
+  background: url(../images/flickering_fire.gif) no-repeat;
+  color: #fff;
+  height: 300px;
+  width: 300px;
+}
+
+button:hover {
+  color: aqua;
+}
+
 .grug-talk {
+  width: 400px;
+}
+
+#text {
+  display: flex;
+  justify-content: space-around;
+}
+
+div > section {
+  background-color: rgb(88, 22, 22);
+}
+
+p > img {
+  height: 10px;
+}
+
+p > img:hover {
+  height: 80vh;
+  float: inline-end;
+}
+.spacing-1 {
+  padding: 10px;
+}
+
+.spacing-2 {
+  margin-bottom: 15px;
+}
+
+.spacing-3 {
+  padding: 0;
+  margin: -5px;
+}
+
+.spacing-4 {
+  padding: 25px 0 25px 30px;
 }
