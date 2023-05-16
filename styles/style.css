@@ -1,3 +1,37 @@
 body {
   background: url(../images/bonfire_yell.gif);
+  color: white;
+}
+
+main {
+  display: flex;
+}
+
+header > marquee {
+  font-size: 10vh;
+}
+
+main > marquee {
+  behavior: alternate;
+  width: 300px;
+  height: 300px;
+  border: none;
+}
+
+marquee > img {
+  height: 200px;
+}
+
+.scooby-doo-caveman-marquee {
+  /* position: fixed;
+
+  top: 50vh;
+  left: 50vw; */
+}
+
+.scooby-doo-caveman {
+  width: 150px;
+}
+
+.grug-talk {
 }
