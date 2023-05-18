@@ -11,8 +11,7 @@ header marquee {
   font-size: 10vh;
 }
 
-main > marquee {
-  behavior: alternate;
+main marquee {
   width: 300px;
   height: 300px;
   border: none;
@@ -66,6 +65,7 @@ p > img:hover {
   height: 80vh;
   float: inline-end;
 }
+
 .spacing-1 {
   padding: 10px;
 }
