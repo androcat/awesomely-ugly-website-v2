@@ -7,7 +7,7 @@ main {
   display: flex;
 }
 
-header > marquee {
+header marquee {
   font-size: 10vh;
 }
 
@@ -59,6 +59,7 @@ div > section {
 
 p > img {
   height: 10px;
+  float: right;
 }
 
 p > img:hover {
