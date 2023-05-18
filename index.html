@@ -23,12 +23,18 @@
           src="images/scooby_caveman.png"
           alt="A caveman doing the 'The Thinker' statue pose"
       /></marquee>
-      <marquee class="caveman1-marquee" behavior="alternate"
-        ><img
+      <marquee class="caveman1-marquee" behavior="alternate">
+        <img
+          class="changeable-img"
           src="images/caveman1.png"
           alt="A caveman doing the 'The Thinker' statue pose"
-      /></marquee>
-      <div id="add-grug"></div>
+        />
+        <caption class="appearing-caption">
+          GRUG DA BUSINESS GRUG
+        </caption>
+      </marquee>
+      <!-- For future version to add an image upon clicking -->
+      <!-- <div id="add-grug"></div> -->
     </main>
     <div id="text">
       <section class="grug-talk">
@@ -58,7 +64,9 @@
           ug booga sug pfft nghh hmmf.
         </p>
       </section>
-      <button class="button" type="button">CLICK FOR MORE GRUG</button>
+      <button class="button" type="button">
+        CLICK FOR GRUG FAMILY PORTRAIT
+      </button>
       <section class="grug-facts">
         <ul>
           <h2>GRUG FACTS</h2>
@@ -72,5 +80,7 @@
         </ul>
       </section>
     </div>
+
+    <script src="main.js"></script>
   </body>
 </html>
